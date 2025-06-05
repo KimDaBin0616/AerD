@@ -42,3 +42,22 @@ Memory: 48G
 #### 옵션
 + image_dir : 입력 이미지의 해당 경로 인자
 + output_dir : 결과 json을 반환 받을 경로 인자
+
+
+### 3. YOLO-World
+##### 3-1. 실험환경
+Python 3.8.6 \
+Ubuntu 22.04.3 LTS\
+GPU: NVIDIA RTX A5000 x 2 \
+CPU: AMD Ryzen 7 5800X 8-Core Processor \
+Memory: 48G
+
+##### 3-2. 디렉토리 구조
+    YOLO-World/
+    ├── configs
+    ├── tools
+##### 3-3. 기본구조
+    train & evaluation: /tools/dist_train.sh configs/pretrain/"custom config.py" 2 --amp
+    inference: /tools/dist_test.sh configs/pretrain/"custom config.py" 2 —amp
+#### 옵션
++ custom config.py: 사용할 config.py
