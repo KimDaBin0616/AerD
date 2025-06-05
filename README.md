@@ -18,7 +18,7 @@ conda install pytorch=2.6.0 torchvision=0.21.0 pytorch-cuda=12.4 -c pytorch -c n
     ├── data.py
     ├── vlm.py
 ##### 1-3. 기본구조
-    python vlm.py --image_dir --output_dir
+    python vlm.py --image_dir[경로] --output_dir[경로]
 #### 옵션
 + image_dir : 입력 이미지의 해당 경로 인자
 + output_dir : 결과 이미지를 반환 받을 경로 인자
