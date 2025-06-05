@@ -10,7 +10,7 @@ Memory: 251G
 <가상환경> \
 conda create -n qwen-vl python=3.10 \ 
 conda activate qwen-vl \
-conda install pytorch=2.6.0 torchvision=0.21.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+conda install pytorch=2.6.0 torchvision=0.21.0 pytorch-cuda=12.4 -c pytorch -c nvidia \
 
 ##### 1-2. 디렉토리 구조
     VLM/
