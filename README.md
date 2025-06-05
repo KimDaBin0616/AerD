@@ -26,7 +26,7 @@
  
     - 제안: 3단계 난이도 프롬프트 설계
       
-    ![image](https://github.com/user-attachments/assets/5a531225-5e1c-40ed-8301-e09cebea3041)
+    ![image](https://github.com/user-attachments/assets/7021e793-f3f6-4431-8654-c65044be262a)
 
     
 - ### 2. 군용 차량 데이터 부족 문제를 보완하기 위한 데이터 합성 기법 제안
