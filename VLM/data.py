@@ -1,7 +1,7 @@
 import json
 
 # 입력 및 출력 파일 경로
-input_path = "/workspace/dabin/YOLO-World/data/russia/train/annotation/test.json"
+input_path = "/workspace/dabin/YOLO-World/data/russia/train/annotation/_annotation.coco.json"
 output_path = "/workspace/dabin/YOLO-World/data/russia/train/annotation/test_converted.json"
 
 # 세부 클래스 → 대분류 매핑
