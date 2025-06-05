@@ -44,7 +44,7 @@ Memory: 48G
 + output_dir : 결과 json을 반환 받을 경로 인자
 
 
-## 3. YOLO-World
+## 3. 학습 및 검증
 ##### 3-1. 실험환경
 Python 3.8.6 \
 Ubuntu 22.04.3 LTS\
