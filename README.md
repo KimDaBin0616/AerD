@@ -1,4 +1,16 @@
-# AerD
+# AerD 팀
+**팀 구성**
+- 20201735 박우진 
+- 20222019 김다빈
+
+## 연구 필요성
+- ### Zero-Shot Object Detection의 필요성
+    - 사전 데이터 없이도 텍스트 설명만으로 탐지가 가능
+    - 학습 데이터에 없는 새로운 객체 탐지 가능
+
+    ![image](https://github.com/user-attachments/assets/8f40b3ba-5280-404f-9a50-21d79eeb42ce)
+
+
 ## 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
 ##### 1-1. 실험환경
 Python 3.10.16 \
