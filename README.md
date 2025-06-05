@@ -1,5 +1,5 @@
 # AerD
-### 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
+## 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
 ##### 1-1. 실험환경
 Python 3.10.16 \
 Ubuntu 22.04.5 LTS\
@@ -24,7 +24,7 @@ conda install pytorch=2.6.0 torchvision=0.21.0 pytorch-cuda=12.4 -c pytorch -c n
 + output_dir : 결과 이미지를 반환 받을 경로 인자
 
 
-### 2. 데이터 합성 기법
+## 2. 데이터 합성 기법
 ##### 2-1. 실험환경
 Python 3.8.6 \
 Ubuntu 22.04.3 LTS\
@@ -44,7 +44,7 @@ Memory: 48G
 + output_dir : 결과 json을 반환 받을 경로 인자
 
 
-### 3. YOLO-World
+## 3. YOLO-World
 ##### 3-1. 실험환경
 Python 3.8.6 \
 Ubuntu 22.04.3 LTS\
