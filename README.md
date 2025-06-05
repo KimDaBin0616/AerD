@@ -34,6 +34,9 @@
     - 군사 데이터는 보안 문제로 대규모 수집 어려움
  
     - 제안: 이미지 합성 기법을 활용한 합성 데이터 생성
+ 
+   ![image](https://github.com/user-attachments/assets/59f6bd26-839a-40b7-8ee8-85941678cd89)
+
 
 
 ## 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
