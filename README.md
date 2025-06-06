@@ -38,7 +38,7 @@
    ![image](https://github.com/user-attachments/assets/59f6bd26-839a-40b7-8ee8-85941678cd89)
 
 
-
+## 매뉴얼
 ## 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
 ##### 1-1. 실험환경
 Python 3.10.16 \
