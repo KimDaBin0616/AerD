@@ -1,4 +1,7 @@
 # AerD 팀
+**프로젝트 제목(국문): 항공영상 기반의 제로샷 객체 탐지 연구**\
+**프로젝트 제목(영문): Zero-shot Object Detection Based on Aerial Imagery**
+
 **팀 구성**
 - 20201735 박우진 
 - 20222019 김다빈
