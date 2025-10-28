@@ -1,4 +1,4 @@
-# AerD 팀
+# 한밭대학교 컴퓨터공학과 AerD 팀
 **프로젝트 제목(국문): 항공영상 기반의 제로샷 객체 탐지 연구**\
 **프로젝트 제목(영문): Zero-shot Object Detection Based on Aerial Imagery**
 
@@ -6,7 +6,9 @@
 - 20201735 박우진 
 - 20222019 김다빈
 
-## ❓ 연구 필요성
+## Teamate Project Background
+
+### 연구 필요성
 - ### Zero-Shot Object Detection의 필요성
     - 사전 데이터 없이도 텍스트 설명만으로 탐지가 가능
     - 학습 데이터에 없는 새로운 객체 탐지 가능
