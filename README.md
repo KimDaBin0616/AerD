@@ -24,87 +24,33 @@
 
 - ### 항공영상 기반의 제로샷 객체 탐지 연구
     - 시각-언어 모델(VLM) 기반 군용 객체 탐지 성능 향상을 위한 프롬프트 튜닝 실험
-    - 군용 데이터 부족 문제를 보완하기 위한 데이터 합성 기법 제안
+    - 군사 데이터 부족 문제를 보완하기 위한 데이터 합성 기법 제안
     - 제로샷 객체 탐지 성능 개선을 위한 방법 제안
 
     ![image](https://github.com/user-attachments/assets/9d51e527-8252-4ee4-85f3-a4d957ecdf96)
 
 ## Case Study
 
-- ### 1. 시각-언어 모델(VLM) 기반 군용 객체 탐지 성능 향상을 위한 프롬프트 튜닝 실험
+- ### 1. 시각-언어 모델(VLM) 기반 군용 객체 탐지 성능 향상을 위한 프롬프트 튜닝
       
     ![image](https://github.com/user-attachments/assets/7021e793-f3f6-4431-8654-c65044be262a)
 
     
-- ### 2. 군용 차량 데이터 부족 문제를 보완하기 위한 데이터 합성 기법 제안
+- ### 2. 군용 차량 데이터 부족 문제를 보완하기 위한 데이터 합성 기법
 
    ![image](https://github.com/user-attachments/assets/59f6bd26-839a-40b7-8ee8-85941678cd89)
 
+  
+- ### 3. 비학습 객체 탐지 성능 개선을 위한 Two-stage 모델 파이프라인
+  
+   ![image](https://github.com/user-attachments/assets/7398fb1f-01ea-4698-823c-25aae5c213f3)
+
 ## Conclusion
-  -  OVD 기법을 적용하여 새로운 유형의 군용 차량이 등장할 시 실시간으로 탐지 가능
-  -  합성 데이터와 실제 드론 영상을 혼합 학습하여 모델이 다양한 상황에서도 안정적으로 탐지할 수 있을 것으로 기대
-  -  본 연구 결과로 개발된 드론 영상 객체 탐지 알고리즘, 합성 데이터 생성 기법 등은 국방 기업과 협업하여 군사 장비 개발 및 방산 시스템에 적용하여 상용화할 수 있음
-    
-## 📃 매뉴얼
-### 1. 시각-언어 모델(VLM)기반 군용 객체 탐지
-##### 1-1. 실험환경
-Python 3.10.16 \
-Ubuntu 22.04.5 LTS\
-GPU: NVIDIA RTX A6000 x 2 \
-CPU: AMD EPYC 7543 32-Core Processor \
-Memory: 251G
+- 데이터 수집 비용을 최소화하면서도 데이터 부족 환경에서 합성 데이터와 프롬프트 튜닝을 통해 객체 탐지 성능을 개선
+- 항공영상 기반 비학습 객체에 대한 제로샷 탐지가 가능하여, 새로운 군사 표적을 인식 가능
+- 군사 표적 탐지에 국한되지 않고, 다양한 실환경 응용 분야로 확장 가능
 
-<가상환경> \
-conda create -n qwen-vl python=3.10\
-conda activate qwen-vl \
-conda install pytorch=2.6.0 torchvision=0.21.0 pytorch-cuda=12.4 -c pytorch -c nvidia
-
-##### 1-2. 디렉토리 구조
-    VLM/
-    ├── convert.py
-    ├── data.py
-    ├── vlm.py
-##### 1-3. 기본구조
-    python vlm.py --image_dir[경로] --output_dir[경로]
-#### 옵션
-+ image_dir : 입력 이미지의 해당 경로 인자
-+ output_dir : 결과 이미지를 반환 받을 경로 인자
-
-
-### 2. 데이터 합성 기법
-##### 2-1. 실험환경
-Python 3.8.6 \
-Ubuntu 22.04.3 LTS\
-GPU: NVIDIA RTX A5000 x 2 \
-CPU: AMD Ryzen 7 5800X 8-Core Processor \
-Memory: 48G
-
-##### 2-2. 디렉토리 구조
-    Image_composition/
-    ├── image_composition.ipynb
-    ├── qwen_drone_view.py
-##### 2-3. 기본구조
-    python qwen_drone_view.py --image_dir[경로] --output_dir[경로]
-    image_composition.ipynb 셀 실행
-#### 옵션
-+ image_dir : 입력 이미지의 해당 경로 인자
-+ output_dir : 결과 json을 반환 받을 경로 인자
-
-
-### 3. 학습 및 검증
-##### 3-1. 실험환경
-Python 3.8.6 \
-Ubuntu 22.04.3 LTS\
-GPU: NVIDIA RTX A5000 x 2 \
-CPU: AMD Ryzen 7 5800X 8-Core Processor \
-Memory: 48G
-
-##### 3-2. 디렉토리 구조
-    YOLO-World/
-    ├── configs
-    ├── tools
-##### 3-3. 기본구조
-    train & evaluation: /tools/dist_train.sh configs/pretrain/"custom config.py" 2 --amp
-    inference: /tools/dist_test.sh configs/pretrain/"custom config.py" 2 —amp
-#### 옵션
-+ custom config.py: 사용할 config.py
+## Project Outcome
+- 2025년 방송미디어공학회 학술대회 발표
+- 2025년 방송미디어공학회 저널논문 게재
+- 2025년 한국전기전자학회 저널논문 게재
