@@ -1,6 +1,4 @@
 # 한밭대학교 컴퓨터공학과 AerD 팀
-**프로젝트 제목(국문): 항공영상 기반의 제로샷 객체 탐지 연구**\
-**프로젝트 제목(영문): Zero-shot Object Detection Based on Aerial Imagery**
 
 **팀 구성**
 - 20201735 박우진 
@@ -14,8 +12,9 @@
     - 학습 데이터에 없는 새로운 객체 탐지 가능
 
     ![image](https://github.com/user-attachments/assets/8f40b3ba-5280-404f-9a50-21d79eeb42ce)
-  
-## 🎯 연구 목표
+
+## System Design
+
 - ### 항공영상 기반의 제로샷 객체 탐지 연구
     - 시각-언어 모델(VLM) 기반 군용 객체 탐지 성능 향상을 위한 프롬프트 튜닝 실험
     - 군용 데이터 부족 문제를 보완하기 위한 데이터 합성 기법 제안
