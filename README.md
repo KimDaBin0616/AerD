@@ -29,6 +29,8 @@
 
     ![image](https://github.com/user-attachments/assets/9d51e527-8252-4ee4-85f3-a4d957ecdf96)
 
+## Case Study
+
 - ### 1. 시각-언어 모델(VLM) 기반 군용 객체 탐지 성능 향상을 위한 프롬프트 튜닝 실험
       
     ![image](https://github.com/user-attachments/assets/7021e793-f3f6-4431-8654-c65044be262a)
@@ -38,7 +40,7 @@
 
    ![image](https://github.com/user-attachments/assets/59f6bd26-839a-40b7-8ee8-85941678cd89)
 
-## ✔️ 기대효과
+## Conclusion
   -  OVD 기법을 적용하여 새로운 유형의 군용 차량이 등장할 시 실시간으로 탐지 가능
   -  합성 데이터와 실제 드론 영상을 혼합 학습하여 모델이 다양한 상황에서도 안정적으로 탐지할 수 있을 것으로 기대
   -  본 연구 결과로 개발된 드론 영상 객체 탐지 알고리즘, 합성 데이터 생성 기법 등은 국방 기업과 협업하여 군사 장비 개발 및 방산 시스템에 적용하여 상용화할 수 있음
