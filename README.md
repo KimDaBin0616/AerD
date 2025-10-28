@@ -43,7 +43,7 @@
   
 - ### 3. 비학습 객체 탐지 성능 개선을 위한 Two-stage 모델 파이프라인
   
-   ![image](https://github.com/user-attachments/assets/7398fb1f-01ea-4698-823c-25aae5c213f3)
+   ![image](https://github.com/user-attachments/assets/dd7e8ff7-8f46-4b16-b7c4-dcfd4d1c95e7)
 
 ## Conclusion
 - 데이터 수집 비용을 최소화하면서도 데이터 부족 환경에서 합성 데이터와 프롬프트 튜닝을 통해 객체 탐지 성능을 개선
